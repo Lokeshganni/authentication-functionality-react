@@ -1,0 +1,13 @@
+.header-main-container {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+}
+
+.link-ele {
+  margin: 5px;
+  list-style-type: none;
+}
