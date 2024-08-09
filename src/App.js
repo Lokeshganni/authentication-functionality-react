@@ -8,9 +8,9 @@ import NotFound from './components/NotFound'
 const App = () => (
   <>
     <Switch>
-      <Route exact to="/login" component={Login} />
-      <ProtectedRoute exact to="/" component={Home} />
-      <ProtectedRoute exact to="/about" component={About} />
+      <Route exact path="/login" component={Login} />
+      <ProtectedRoute exact path="/" component={Home} />
+      <ProtectedRoute exact path="/about" component={About} />
       <Route component={NotFound} />
     </Switch>
   </>
